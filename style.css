@@ -403,3 +403,42 @@ box-shadow:0 0 20px #00d4ff;
 color:#00d4ff;
 margin-bottom:15px;
 }
+.dashboard{
+padding:80px 20px;
+text-align:center;
+}
+
+.dashboard h2{
+font-size:40px;
+color:#00d4ff;
+margin-bottom:40px;
+}
+
+.dashboard-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.status-card{
+background:rgba(255,255,255,.08);
+padding:25px;
+border-radius:18px;
+border:1px solid rgba(255,255,255,.15);
+transition:.3s;
+}
+
+.status-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px #00d4ff;
+}
+
+.status-card a{
+display:inline-block;
+margin-top:15px;
+color:#00d4ff;
+font-weight:bold;
+text-decoration:none;
+}
