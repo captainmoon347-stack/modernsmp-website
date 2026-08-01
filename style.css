@@ -473,4 +473,40 @@ box-shadow:0 0 20px #00d4ff;
 .announcement-card h3{
 color:#00d4ff;
 margin-bottom:10px;
+/* Premium Footer */
+
+.footer{
+margin-top:80px;
+padding:50px 20px;
+text-align:center;
+background:rgba(0,0,0,.55);
+border-top:2px solid #00d4ff;
+}
+
+.footer h2{
+color:#00d4ff;
+margin-bottom:10px;
+}
+
+.footer-links{
+margin:25px 0;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#00d4ff;
+text-shadow:0 0 10px #00d4ff;
+}
+
+.copyright{
+margin-top:20px;
+opacity:.8;
+font-size:14px;
 }
