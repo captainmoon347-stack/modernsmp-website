@@ -510,3 +510,37 @@ margin-top:20px;
 opacity:.8;
 font-size:14px;
 }
+    /* Gallery */
+
+.gallery{
+padding:80px 20px;
+text-align:center;
+}
+
+.gallery h2{
+font-size:40px;
+color:#00d4ff;
+margin-bottom:35px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+max-width:1200px;
+margin:auto;
+}
+
+.gallery-grid img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+transition:.4s;
+border:2px solid rgba(255,255,255,.15);
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+box-shadow:0 0 25px #00d4ff;
+}
