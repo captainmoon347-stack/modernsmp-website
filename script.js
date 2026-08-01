@@ -1,6 +1,6 @@
-console.log("Modern SMP Website Loaded!");
+console.log("Modern X Server Website Loaded!");
 
-alert("Welcome to Modern SMP Official Website!");
+alert("Welcome to Modern X Network Official Website!");
 button{
     background:#00bfff;
     color:white;
