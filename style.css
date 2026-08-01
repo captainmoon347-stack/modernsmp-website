@@ -148,5 +148,20 @@ box-shadow:0 0 15px rgba(0,0,0,.3);
 transform:translateY(-8px);
 box-shadow:0 0 25px rgba(0,170,255,.8);
 }
+/* Premium Background */
+
+body{
+background: linear-gradient(135deg,#090909,#111827,#0f172a,#1e1b4b);
+background-size:400% 400%;
+animation:bg 15s ease infinite;
+color:white;
+font-family:Arial,sans-serif;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
 
 
