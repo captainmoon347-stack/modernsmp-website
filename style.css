@@ -227,3 +227,62 @@ box-shadow:0 0 25px #00d4ff,
 background:linear-gradient(45deg,#0066ff,#00d4ff);
 
 }
+/* Premium Glass Cards */
+
+.cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+padding:60px 20px;
+
+}
+
+.card{
+
+width:320px;
+
+padding:25px;
+
+border-radius:18px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.15);
+
+transition:.4s;
+
+box-shadow:0 0 15px rgba(0,0,0,.3);
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 25px #00d4ff;
+
+}
+
+.card h2{
+
+margin-bottom:15px;
+
+color:#00d4ff;
+
+}
+
+.card p{
+
+line-height:1.8;
+
+}
