@@ -366,3 +366,40 @@ box-shadow:0 0 20px #00d4ff;
 margin-bottom:15px;
 color:#00d4ff;
 }
+.staff-preview{
+padding:80px 20px;
+text-align:center;
+}
+
+.staff-preview h2{
+font-size:40px;
+margin-bottom:40px;
+color:#00d4ff;
+}
+
+.staff-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-bottom:35px;
+}
+
+.staff-card{
+width:350px;
+padding:30px;
+background:rgba(255,255,255,.08);
+border-radius:18px;
+border:1px solid rgba(255,255,255,.15);
+transition:.3s;
+}
+
+.staff-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px #00d4ff;
+}
+
+.staff-card h3{
+color:#00d4ff;
+margin-bottom:15px;
+}
