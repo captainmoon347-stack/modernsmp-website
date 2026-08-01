@@ -38,3 +38,36 @@ nav a{
 nav a:hover{
     color:#00bfff;
 }
+form{
+    max-width:600px;
+    margin:40px auto;
+    background:#161b22;
+    padding:25px;
+    border-radius:15px;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+    background:#0d1117;
+    color:white;
+    font-size:16px;
+}
+
+label{
+    font-weight:bold;
+}
+
+button[type="submit"]{
+    width:100%;
+    padding:15px;
+    background:#00bfff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+}
