@@ -77,3 +77,29 @@ iframe{
     border:none;
     border-radius:15px;
 }
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    color:white;
+    background:linear-gradient(135deg,#0b1026,#1a1f4d,#2b1055);
+    background-attachment:fixed;
+}
+
+h1,h2,h3{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+    color:#d6d6d6;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 30px;
+    background:rgba(0,0,0,0.35);
+    backdrop-filter:blur(12px);
+}
